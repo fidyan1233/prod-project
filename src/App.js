@@ -1,10 +1,15 @@
 import React from 'react'
+import Navbar from './Layout/Navbar'
+import Footer from './Layout/Footer'
+import Home from './Components/Home'
 
 const App = () => {
   return (
-    <div className="container">
-      <div>FIDYAN`S <br /> Web Application</div>
-    </div>
+    <>
+    <Navbar/>
+    <Home/>
+    <Footer/>
+    </>
   )
 }
 
